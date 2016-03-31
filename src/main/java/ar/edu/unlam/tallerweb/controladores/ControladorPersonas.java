@@ -17,7 +17,7 @@ public class ControladorPersonas {
 	@RequestMapping("/hi")
 	public ModelAndView helloWorld(@RequestParam("nombre") String nombre) {
 
-		String message = "Hola, " + nombre + "!";
+		String message = "Hola, " + nombre + " !";
 		ModelMap model = new ModelMap();
 		
 		Persona persona = new Persona();
